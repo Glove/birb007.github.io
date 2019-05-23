@@ -2,13 +2,21 @@
 <html>
     <head>
         <title>{{ page.title }}</title>
-        <link rel-"stylesheet" type="text/css" href="/css/main.css">
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
     </head>
 
     <body>
+        <nav>
+            <ul>
+                <li><a href="/">Index</li>
+                <li><a href="/blog">Blog</li>
+            </ul>
+        </nav>
+
         <div class="container">
             {{ content }}
         </div>
+
         <footer>
             Generic tech blog #239872341
         </footer>
