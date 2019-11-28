@@ -1,11 +1,15 @@
 ---
 layout: default
-title: Hacky Solutions Content
+title: Uninteresting content
 ---
     <h1>{{ page.title }}</h1>
     <ul class="posts">
-
-        {% for post in site.posts %}
-            <li><span>{{ post.date || date_to_string }}</span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-        {% endfor %}
+        <table>
+            {% for post in site.posts %}
+            <tr>
+                <td>{{ post.date || date_to_string }}</td>
+                <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
+            </tr>
+            {% endfor %}
+        </table>
     </ul>
