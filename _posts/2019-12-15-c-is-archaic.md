@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "C is archic"
+title: "C is archaic"
 date: 2019-12-15
 ---
 
