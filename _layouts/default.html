@@ -18,8 +18,13 @@
             {{ content }}
 
             <footer>
+                <div id="footer text">
                 Generic tech blog #239872341
+                </div>
             </footer>
         </div>
+    <script language="javascript">
+        document.getElementById("footer text").innerText = "Generic tech blog #" + Math.floor(Math.random()*1_000_000_000);
+    </script>
     </body>
 </html>
