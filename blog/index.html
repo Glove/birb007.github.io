@@ -5,7 +5,7 @@ title: Uninteresting content
     <h1>{{ page.title }}</h1>
     <ul class="posts">
         <table>
-            {% for post in site.posts %}
+            {% for post in site.categories.blog %}
             <tr>
                 <td>{{ post.date || date_to_string }}</td>
                 <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>

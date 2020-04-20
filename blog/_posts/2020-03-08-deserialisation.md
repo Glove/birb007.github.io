@@ -76,8 +76,7 @@ def load_recent_save() -> GameState:
 
 The game is blindly deserialising the file `.save`. We can inspect this file.
 
-```console
-$ xxd .save
+```
 00000000: 8004 95bf 0000 0000 0000 008c 085f 5f6d  .............__m
 00000010: 6169 6e5f 5f94 8c09 5361 7665 5374 6174  ain__...SaveStat
 00000020: 6594 9394 2981 947d 9428 8c09 7469 6d65  e...)..}.(..time
@@ -95,7 +94,7 @@ $ xxd .save
 
 `pickle` is a binary serialisation format but we can still see some textual data. What if we modify this file?
 
-![bindiff of save files](/assets/images/deserialisation_bindiff.png)
+![bindiff of save files](/blog/assets/images/deserialisation_bindiff.png)
 
 We successfully changed our player's name.
 
