@@ -1,5 +1,11 @@
-name: hacky solutions
+plugins:
+    - jekyll-feed
+
 markdown: kramdown
 kramdown:
     input: GFM
     syntax_highlighter: rouge
+
+name: "hacky solutions"
+description: "simple blog for simple ideas"
+author: "birb007"

@@ -2,30 +2,17 @@
 <html>
     <head>
         <title>{{ page.title }}</title>
+        <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
         <link rel="stylesheet" type="text/css" href="/css/main.css">
     </head>
 
     <body>
         <div class="container-fluid main-container">
-
-            <nav>
-                <ul class="navigation">
-                    <li><a href="/">Index</a></li>
-                    <li><a href="/blog">Blog</a></li>
-                    <li><a href="/writeups">Writeups</a></li>
-                </ul>
-            </nav>
+            {% include header.html %}
 
             {{ content }}
 
-            <footer>
-                <div id="footer text">
-                Generic tech blog #239872341
-                </div>
-            </footer>
+            {% include footer.html %}
         </div>
-    <script language="javascript">
-        document.getElementById("footer text").innerText = "Generic tech blog #" + Math.floor(Math.random()*1_000_000_000);
-    </script>
     </body>
 </html>
