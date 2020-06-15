@@ -58,6 +58,8 @@ root@vps-e0d4d314:~# systemctl status tor@default
            └─7542 /usr/bin/tor --defaults-torrc /usr/share/tor/tor-service-defaults-torrc -f /etc/tor/torrc --RunAsDaemon 0
 ```
 
+It is really important to appropriately secure the server because it will be servicing thousands of connections to and from unknown hosts. A relay is a worthwhile target because it can assist in [correlation attacks](https://www.ohmygodel.com/publications/usersrouted-ccs13.pdf).
+
 # Phases
 ## Unmeasured Phase
 
