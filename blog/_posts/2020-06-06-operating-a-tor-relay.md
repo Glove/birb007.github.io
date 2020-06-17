@@ -219,6 +219,6 @@ The latest local visualisations of relay traffic are shown below.
 
 The relay had transferred 3.9TB in total since the 6th of Jun. However, between the 12th and the 14th, 2.76TB had been transferred. The increase in traffic coincides with the rapid increase in middle probability. Looking at the daily graph, the incremental increase in traffic is clear. Hourly traffic measurements show the traffic peaks between 11:00 - 15:00 (UTC), longer analysis is required to build a traffic schedule.
 
-That concludes the interesting parts of running a relay. The next phase will be becomming a steady Guard but that will take a couple months. Within that period the middle probability will drop in favour of guard probability and the relay will recieve more direct connections. In the meantime, relay will continue to collect information for my own curiosity, I hope this post was interesting.
+That concludes the interesting parts of running a relay. The next phase will be becoming a steady Guard but that will take a couple months. Within that period the middle probability will drop in favour of guard probability and the relay will receive more direct connections. In the meantime, relay will continue to collect information for my own curiosity, I hope this post was interesting.
 
 <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/shanqw?autoplay=1" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
